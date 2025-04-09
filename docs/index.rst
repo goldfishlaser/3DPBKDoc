@@ -5,10 +5,9 @@
 
 Building a 3D-Printed Magnetic Release for BusKill cable
 ========================================================
-.. image:: images/buskillassembled.png
+.. image:: /images/buskillassembled.png
   :width: 400
   :alt: Alternative text
-
 
 .. toctree::
    overview

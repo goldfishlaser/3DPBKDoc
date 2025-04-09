@@ -5,7 +5,7 @@ Introduction
 ------------
 How to assemble the 3D printed magnetic release for the BusKill cable.
 
-.. image:: images/partsdiagram.png
+.. image:: /images/partsdiagram.png
   :width: 400
   :alt: parts diagram
 
