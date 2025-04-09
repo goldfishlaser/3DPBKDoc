@@ -1,6 +1,12 @@
 Prep the pogo connections
 =========================================================
 
+Before you start
+------------
+- Make sure to avoid globs of solder
+- Pogos get hot during soldering
+- Use proper ventiliation and PPE
+
 Steps
 ------------
 
