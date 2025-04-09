@@ -3,7 +3,11 @@ Overview
 
 Introduction
 ------------
-How to assemble the 3D printed magnetic release for the BusKill cable.
+The 3D printed magnetic release for the BusKill cable consists of two printable parts, the Breakaway and the Release. The Breakaway and the Release are connected between a usb drive, usb cord, and usb port on the computer. Magnets and pogo pins are inserted into the "faces" or "contact points" so that they easily break away, severing the connection between the computer and a usb drive.
+
+The Breakaway is an assembly of a Breakaway printed part, 22 awg wire, pogo receptors, USB port (female), and magnets.
+
+The Release is an assembly of a Release printed part, 22 awg wire, pogo pins, USB male, jig, and  magnets.
 
 Safety Precautions
 ------------------
@@ -35,7 +39,7 @@ Tools
 - Magnets
 - Pogo Pins
 - Pogo Contacts
-- 28 AWG Wire
+- 22 AWG Wire
 - Super glue
 - USB male
 - USB female
