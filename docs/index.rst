@@ -22,13 +22,6 @@ Building a 3D-Printed Magnetic Release for BusKill cable
 
    This project is under active development.
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 In the News
 ===========
 
@@ -46,5 +39,5 @@ More Information
 - BusKill Open Collective https://opencollective.com/buskill
 - BusKill Documentation https://docs.buskill.in
 
-
+* :ref:`search`
 
