@@ -14,6 +14,7 @@ Building a 3D-Printed Magnetic Release for BusKill cable
    release
    breakaway
    testing
+   glossary
 
 .. note::
 
