@@ -17,7 +17,7 @@ Safety Precautions
 
 Materials
 ---------
-- 3D printed parts
+- 3D printed parts - https://github.com/goldfishlaser/usb-a-magnetic-breakaway
 - Magnets
 - Pogo Pins
 - Pogo Contacts
