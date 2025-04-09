@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Building a 3D-Printed Magnetic Release for BusKill cable
+Assembly Instructions for a 3D-Printed USB-A Magnetic Release for BusKill cable
 ========================================================
 .. image:: /images/buskillassembled.png
   :width: 400
