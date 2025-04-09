@@ -29,23 +29,17 @@ Materials
 - Super glue
 - USB male
 - USB female
-- Screws
-- Screwdriver
 - Cable
+- Screws
+- Solder
 
 Tools
 ---------
-- 3D printed parts
-- Magnets
-- Pogo Pins
-- Pogo Contacts
-- 22 AWG Wire
-- Super glue
-- USB male
-- USB female
-- Screws
+- Wire stripper
+- Helping hands
+- Eraser putty
 - Screwdriver
-- Cable
+- Soldering iron
 
 
 
