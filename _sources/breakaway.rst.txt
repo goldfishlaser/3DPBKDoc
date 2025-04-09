@@ -5,6 +5,11 @@ Introduction
 ------------
 How to assemble the 3D printed magnetic breakaway for the BusKill cable.
 
+Safety Precautions
+------------------
+- Handle the super glue with care to avoid skin contact.
+- Keep magnets away from electronic devices and magnetic storage media.
+- Use appropriate tools and safety equipment while assembling the parts.
 
 Steps
 -----
