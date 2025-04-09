@@ -1,23 +1,10 @@
-Assembly of 3D Printed Magnetic Release for BusKill cable
+Assembling the Breakaway
 =========================================================
 
 Introduction
 ------------
-How to assemble the 3D printed magnetic release for the BusKill cable.
+How to assemble the 3D printed magnetic breakaway for the BusKill cable.
 
-Materials
----------
-- 3D printed parts
-- Magnets
-- Pogo Pins
-- Pogo Contacts
-- 28 AWG Wire
-- Super glue
-- USB male
-- USB female
-- Screws
-- Screwdriver
-- Cable
 
 Steps
 -----
