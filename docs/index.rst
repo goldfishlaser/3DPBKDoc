@@ -11,8 +11,10 @@ Building a 3D-Printed Magnetic Release for BusKill cable
 
 .. toctree::
    overview
+   preppogos
    release
    breakaway
+   magnets
    testing
    glossary
 
