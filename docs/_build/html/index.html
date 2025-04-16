@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>3D-Printed Magnetic Release Developer Guide &#8212; 3DPKBK Docs 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=cb25574f" />
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Overview" href="overview.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="d-printed-magnetic-release-developer-guide">
+<h1>3D-Printed Magnetic Release Developer Guide<a class="headerlink" href="#d-printed-magnetic-release-developer-guide" title="Link to this heading">¶</a></h1>
+<a class="reference internal image-reference" href="_images/buskillassembled.png"><img alt="photograph of assembled 3D printed magnetic release" src="_images/buskillassembled.png" style="width: 400px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development.</p>
+</div>
+<p>This guide contains assembly instructions for a magnetic breakaway release using a 3D-printed shell for encasing easily sourceable components.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#safety-precautions">Safety Precautions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#materials">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#tools">Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="printparts.html">Step 1: Print the parts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="printparts.html#before-you-start">Before you start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="printparts.html#precautions">Precautions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="printparts.html#you-will-need">You will need</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="printparts.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="preppogos.html">Step 2: Prep the pogo connections</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="preppogos.html#before-you-start">Before you start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="preppogos.html#precautions">Precautions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="preppogos.html#you-will-need">You will need</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="preppogos.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">Step 3: Assembling the Release</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="release.html#before-you-start">Before you start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="release.html#precautions">Precautions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="release.html#you-will-need">You will need</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="release.html#procedure">Procedure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release.html#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="breakaway.html">Step 4: Assembling the Breakaway</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="breakaway.html#before-you-start">Before you start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="breakaway.html#safety-precautions">Safety Precautions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="breakaway.html#you-will-need">You will need</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="breakaway.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="magnets.html">Step 5: Adding the magnets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="magnets.html#before-you-start">Before you start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="magnets.html#precautions">Precautions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="magnets.html#you-will-need">You will need</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="magnets.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing and Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#testing">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#maintenance">Maintenance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id1">Breakaway End</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id2">BusKill Cable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id3">BusKill Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id4">Jig</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id5">Magnetic Coupler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id6">Magnetic Release Cord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id7">Pogo Contact</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id8">Pogo Pin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#pogo-receptor">Pogo Receptor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id9">Release End</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id10">USB A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id11">USB Ejection Event</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#usb-extender-cord">USB Extender Cord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html#id12">USB Insertion Event</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="in-the-news">
+<h2>In the News<a class="headerlink" href="#in-the-news" title="Link to this heading">¶</a></h2>
+<p>Hill, Ash (May 02, 2023). <a class="reference external" href="https://www.tomshardware.com/news/3d-printable-buskill-cable">“3D Print Your Own USB BusKill Module to Protect Data”.</a> Tom’s Hardware.</p>
+<p>Halfacree, Gareth (May 08, 2024). <a class="reference external" href="https://www.hackster.io/news/melanie-allen-wants-to-bring-dead-man-switches-to-all-with-a-3d-printable-buskill-adapter-8383a371ee2e">“Melanie Allen Wants to Bring Dead-Man Switches to All with a 3D-Printable BusKill Adapter.</a> hackster.io</p>
+</section>
+<section id="more-information">
+<h2>More Information<a class="headerlink" href="#more-information" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://tech.michaelaltfield.net/2020/01/02/buskill-laptop-kill-cord-dead-man-switch">What is BusKill?</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/channel/UC5Njxb027m2OmrocrH33oew">BusKill YouTube</a></p></li>
+<li><p><a class="reference external" href="https://www.crowdsupply.com/alt-shift/buskill">BusKill Crowdsupply</a></p></li>
+<li><p><a class="reference external" href="https://opencollective.com/buskill">BusKill Open Collective</a></p></li>
+<li><p><a class="reference external" href="https://docs.buskill.in">BusKill Documentation</a></p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">3DPKBK Docs</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="printparts.html">Step 1: Print the parts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preppogos.html">Step 2: Prep the pogo connections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">Step 3: Assembling the Release</a></li>
+<li class="toctree-l1"><a class="reference internal" href="breakaway.html">Step 4: Assembling the Breakaway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magnets.html">Step 5: Adding the magnets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing and Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="overview.html" title="next chapter">Overview</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2025, Melanie Allen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
