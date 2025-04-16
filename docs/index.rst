@@ -1,4 +1,4 @@
-.. 3D-Printed_Magnetic_Release_Developer_Guide
+.. 3DPBK
 
 3D-Printed Magnetic Release Developer Guide
 ============================================
