@@ -5,9 +5,15 @@
 
 Assembly Instructions for a 3D-Printed USB-A Magnetic Release for BusKill cable
 ========================================================
+
 .. image:: /images/buskillassembled.png
   :width: 400
   :alt: Alternative text
+=======
+.. image:: images/buskillassembled.png
+  :width: 400
+  :alt: Alternative text
+
 
 .. toctree::
    overview
@@ -38,6 +44,4 @@ More Information
 - BusKill Crowdsupply https://www.crowdsupply.com/alt-shift/buskill
 - BusKill Open Collective https://opencollective.com/buskill
 - BusKill Documentation https://docs.buskill.in
-
-* :ref:`search`
 
