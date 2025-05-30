@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '3DPKBK Docs'
+project = '3DPBK Docs'
 copyright = '2025, Melanie Allen'
 author = 'Melanie Allen'
 release = '0.1'

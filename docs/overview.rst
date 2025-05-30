@@ -19,6 +19,10 @@ Safety Precautions
   :width: 400
   :alt: parts diagram
 
+.. image:: images/partsdiagram.png
+  :width: 400
+  :alt: parts diagram
+
 Materials
 ---------
 - 3D printed parts - https://github.com/goldfishlaser/usb-a-magnetic-breakaway
@@ -41,6 +45,17 @@ Tools
 - Screwdriver
 - Soldering iron
 
+=======
+- Cable
 
+Safety Precautions
+------------------
+- Handle the super glue with care to avoid skin contact.
+- Keep magnets away from electronic devices and magnetic storage media.
+- Use appropriate tools and safety equipment while assembling the parts.
 
-
+Maintenance
+-----------
+- Periodically check the magnetic release mechanism for wear and tear.
+- Replace any damaged parts as necessary.
+>>>>>>> 92bcfd0 (add images)
